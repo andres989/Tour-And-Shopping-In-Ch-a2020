@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  width: 100%;
+}
+body{
+  font-family:"lato";
+}
+.Nosotros{
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+}
+.Nosotros h1{
+  text-align: center;
+  font-size: 38px;
+  margin: 15px 0px 40px;
+}
+.contenedor{
+  display:  flex;
+  justify-content: flex-end;
+}
+.Nosotros-item{
+  width: 30%;
+  position: relative;
+  overflow: hidden;
+}
+
+.Nosotros-img{
+  transition: all 0.5s;
+}
+.Nosotros-text{
+position: absolute;
+bottom: 0;
+padding: 20px;
+
+background: rgba(0,0,0,0.7);
+color: #fff;
+transform: translateY(100%);
+transition: all 0.3s ease-out;
+}
+
+.Nosotros-text p{
+  text-align: justify;
+
+}
+
+.Nosotros-item:hover .Nosotros-text{
+  transform: translateY(0%);
+}
+
+.Nosotros-item:hover .Nosotros-img{
+  transform: scale(1.15);
+}
+
+
+
+
+<!--banner-->
+*{
+margin: 0;
+padding: 0;
+border: 0;}
+
+body{
+background-image: linear-gradient(#63ffe8ff,#63ffe8ff );
+}
+
+a{
+color: #524c56;
+text-decoration: none;
+font-weight: bold;}
+
+a:hover{
+color: #333FFF;}
+
+#wrapper{
+max-width: 1200px;
+margin: 0 auto;}
+
+header #logo img {
+margin: 20px;
+float: left;
+width: 70px;}
+
+nav{
+float: right;
+padding: 25px 20px 0 0;}
+
+nav ul li {
+font-size: 150%;
+display: inline-block;
+float: left;
+padding: 10px;}
+
+nav ul li a {
+color: #0B1328;}
+<!--banner-->

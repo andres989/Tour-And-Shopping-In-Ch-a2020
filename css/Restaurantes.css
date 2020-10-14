@@ -1,0 +1,87 @@
+h1{
+  font-size: 70px;
+  color: #fff;
+  text-align: center;
+}
+.contenedor{
+  width: 100%;
+  margin: auto;
+}
+img{
+  width: 100%;
+}
+.personas__columna{
+  margin: 5px;
+  }
+.personas .contenedor{
+  display: grid;
+}
+@media(min-width:520px){
+  .personas .contenedor{
+
+    grid-template-columns: repeat(2,50%);
+      }
+  }
+  @media(min-width:728px){
+    .personas .contenedor{
+
+      grid-template-columns: repeat(3,33,3%);
+    }
+}
+@media(min-width:1024px){
+  .personas .contenedor{
+
+    grid-template-columns: repeat(4,25%);
+  }
+  .contenedor{
+    width: 1024px;
+  }
+}
+@media(min-width:1200px){
+  .contenedor{
+    width: 1200px;
+  }
+}
+
+
+
+<!--banner-->
+*{
+margin: 0;
+padding: 0;
+border: 0;}
+
+body{
+background-image: linear-gradient(#63ffe8ff,#63ffe8ff );
+}
+
+a{
+color: #524c56;
+text-decoration: none;
+font-weight: bold;}
+
+a:hover{
+color: #333FFF;}
+
+#wrapper{
+max-width: 1200px;
+margin: 0 auto;}
+
+header #logo img {
+margin: 20px;
+float: left;
+width: 70px;}
+
+nav{
+float: right;
+padding: 25px 20px 0 0;}
+
+nav ul li {
+font-size: 150%;
+display: inline-block;
+float: left;
+padding: 10px;}
+
+nav ul li a {
+color: #0B1328;}
+<!--banner-->
